@@ -4,3 +4,4 @@ load csv with headers from 'file:///actors-good.csv' as row match (a:Actor {acto
 load csv with headers from 'file:///country_table.csv' as row merge (c:Country {countryId: toInteger(row.country_id)}) set c.movieId = toInteger(row.movie_id), c.countryName = row.country_name, c.shortcode = row.shortcode
 load csv with headers from 'file:///keyword_table.csv' as row merge (k:Keyword {keywordId: toInteger(row.keyword_id)}) set k.movieId = row.movie_id, k.keyword = row.keyword
 load csv with headers from 'file:///country_table.csv' as row match (c:Country {countryId: toInteger(row.country_id)}) match (m:Movie {movieId: toInteger(row.movie_id)}) merge (c)-[h:HOSTS]->(m)
+load csv with headers from 'file:///keyword_table.csv' as row match (k:Keyword {keywordId: toInteger(row.keyword_id)}) match (m:Movie {movieId: toInteger(row.movie_id)}) merge (k)-[d:DESCRIBES]->(m)
