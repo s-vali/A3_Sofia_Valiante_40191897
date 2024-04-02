@@ -1,59 +1,51 @@
-keyword_id,movie_id,keyword
-1,1,Alien
-2,2,Scientist
-3,3,Dune
-4,4,Bomb
-5,5,Mafia
-6,6,Dreams
-7,7,Disaster
-8,8,Redemption
-9,9,Superhero
-10,10,History
-11,11,Nonlinear
-12,12,Cyberpunk
-13,13,Adventure
-14,14,Anarchy
-15,15,Holocaust
-16,16,Revenge
-17,17,Mob
-18,18,"Serial Killer"
-19,19,Undercover
-20,20,War
-21,21,Magic
-22,22,Supernatural
-23,23,Disney
-24,24,Mafia
-25,25,Dinosaurs
-26,26,Supernatural
-27,27,Marvel
-28,28,Facebook
-29,29,Pandora
-30,30,Space
-31,31,"Wall Street"
-32,32,Slavery
-33,33,Survival
-34,34,Space
-35,35,Wakanda
-36,36,Post-Apocalyptic
-37,37,Jazz
-38,38,"Mental Illness"
-39,39,Hotel
-40,40,Aquatic
-41,41,Aliens
-42,42,Broadway
-43,43,Journalism
-44,44,Jazz
-45,45,Bowling
-46,46,Neo-Western
-47,47,Mars
-48,48,Toys
-49,49,Spirits
-50,50,"Jazz Age"
-51,50,Drama
-52,50,Old
-53,31,Money
-54,31,Drama
-55,37,Drama
-56,37,Hollywood
-57,44,Music
-58,44,Intense
+movie_id,TMDB_id,IMDB_id,watchmode_id,title,description,release_year,nb_of_reviews,rating,running_time
+1,2,3,4,Alien,"The crew of a commercial spacecraft encounters a deadly lifeform after investigating a mysterious transmission of unknown origin.",1979,945000,8.5,120
+2,3,4,5,"Poor Things","The incredible tale about the fantastical evolution of Bella Baxter",2023,190000,7.5,90
+3,4,5,6,"Dune: Part two","Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",2024,250000,8.8,180
+4,5,6,7,Oppenheimer,"The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",2023,686000,8.3,110
+5,6,7,8,"The Godfather","A classic crime drama depicting the Corleone family's rise to power in the mafia underworld.",1972,1000,9.2,120
+6,7,8,9,Inception,"A mind-bending heist thriller where thieves steal secrets from deep within the subconscious.",2010,900,8.8,120
+7,8,9,10,Titanic,"A romantic drama set aboard the ill-fated RMS Titanic, starring Jack and Rose.",1997,850,7.8,120
+8,9,10,11,"The Shawshank Redemption","A poignant tale of hope and friendship in the confines of a prison.",1994,920,9.3,120
+9,10,11,12,"The Dark Knight","Batman faces off against the Joker in this intense crime thriller.",2008,880,9,120
+10,11,12,13,"Forrest Gump","A heartwarming story of a simple man who becomes involved in major historical events.",1994,860,8.8,120
+11,12,13,14,"Pulp Fiction","A nonlinear narrative intertwining various criminal tales in Los Angeles.",1994,890,8.9,120
+12,13,14,15,"The Matrix","A sci-fi action film exploring the concept of reality and freedom.",1999,830,8.7,120
+13,14,15,16,"The Lord of the Rings: The Return of the King","The final installment of the epic fantasy trilogy, depicting the battle for Middle-earth.",2003,910,9,120
+14,15,16,17,"Fight Club","A dark and twisted exploration of masculinity and consumerism.",1999,870,8.8,120
+15,16,17,18,"Schindler's List","A powerful portrayal of Oskar Schindler's efforts to save Jews during the Holocaust.",1993,900,8.9,120
+16,17,18,19,Gladiator,"A Roman general seeks vengeance against the corrupt emperor who murdered his family.",2000,820,8.5,120
+17,18,19,20,Goodfellas,"A gripping tale of the rise and fall of a mobster, based on a true story.",1990,840,8.7,120
+18,19,20,21,"The Silence of the Lambs","An FBI trainee seeks the help of a brilliant but insane cannibalistic serial killer to catch another serial killer.",1991,810,8.6,120
+19,20,21,22,"The Departed","A gripping crime thriller about undercover cops and organized crime in Boston.",2006,800,8.5,120
+20,21,22,23,"Saving Private Ryan","A harrowing depiction of a World War II mission to rescue a soldier behind enemy lines.",1998,830,8.6,120
+21,22,23,24,"The Prestige","A tale of rivalry between two magicians, blending mystery and deceit.",2006,820,8.5,120
+22,23,24,25,"The Green Mile","A supernatural drama set on death row, focusing on a gentle giant with miraculous abilities.",1999,810,8.6,120
+23,24,25,26,"The Lion King","An animated musical epic following the journey of a young lion prince reclaiming his kingdom.",1994,800,8.5,120
+24,25,26,27,"The Godfather Part II","A sequel to the original Godfather film, exploring the rise of Vito Corleone and the reign of his son Michael.",1974,850,9,120
+25,26,27,28,"Jurassic Park","A sci-fi adventure where dinosaurs are brought back to life in an amusement park, only to wreak havoc.",1993,820,8.1,120
+26,27,28,29,"The Sixth Sense","A psychological thriller about a young boy who communicates with the dead, with a shocking twist ending.",1999,840,8.1,120
+27,28,29,30,"The Avengers","A superhero ensemble film where Earth's mightiest heroes unite to save the world from a powerful threat.",2012,820,8,120
+28,29,30,31,"The Social Network","A biographical drama depicting the founding of Facebook and the ensuing legal battles.",2010,810,7.7,120
+29,30,31,32,Avatar,"A visually stunning sci-fi epic set on the alien world of Pandora, exploring themes of imperialism and environmentalism.",2009,830,7.8,120
+30,31,32,33,Interstellar,"A space exploration film where a team of astronauts seeks a new habitable planet for humanity.",2014,850,8.6,120
+31,32,33,34,"The Wolf of Wall Street","A biographical black comedy following the rise and fall of stockbroker Jordan Belfort.",2013,840,8.2,120
+32,33,34,35,"Django Unchained","A Western film set in the antebellum South, where a freed slave seeks to rescue his wife from a cruel plantation owner.",2012,860,8.4,120
+33,34,35,36,"The Revenant","A survival drama inspired by true events, following a frontiersman's quest for vengeance after being left for dead.",2015,820,7.7,120
+34,35,36,NULL,Gravity,"A space thriller following an astronaut stranded in space after her spacecraft is destroyed.",2013,810,7.7,120
+35,36,37,38,"Black Panther","A groundbreaking superhero film set in the fictional African nation of Wakanda, exploring themes of identity and legacy.",2018,800,7.3,120
+36,37,NULL,39,"Mad Max: Fury Road","An adrenaline-fueled action film set in a post-apocalyptic desert wasteland, following a group of rebels led by Furiosa.",2015,820,8.1,120
+37,38,39,40,"La La Land","A romantic musical comedy-drama following the love story between a jazz musician and an aspiring actress in Los Angeles.",2016,810,8,120
+38,39,40,NULL,Joker,"A dark and gritty character study of the iconic Batman villain, exploring themes of mental illness and societal decay.",2019,830,8.5,120
+39,40,41,42,"The Grand Budapest Hotel","A whimsical comedy-drama set in a fictional European hotel, following the misadventures of its eccentric concierge.",2014,820,8.1,120
+40,41,42,43,"The Shape of Water","A fantasy romance film set during the Cold War era, where a mute woman forms a unique bond with a mysterious aquatic creature.",2017,800,7.3,120
+41,42,NULL,44,Arrival,"A thought-provoking sci-fi film where linguistics experts attempt to communicate with extraterrestrial visitors.",2016,810,7.9,120
+42,43,44,45,Birdman,"A black comedy-drama following a washed-up actor's attempt to revive his career by staging a Broadway play.",2014,820,7.7,120
+43,44,45,46,Spotlight,"A gripping investigative drama based on the true story of the Boston Globe's exposé on systemic child abuse within the Catholic Church.",2015,830,8.1,120
+44,45,NULL,47,Whiplash,"A tense psychological drama exploring the relationship between an ambitious jazz drummer and his abusive instructor.",2014,840,8.5,120
+45,46,47,48,"The Big Lebowski","A cult classic comedy following the misadventures of "The Dude" as he gets caught up in a case of mistaken identity.",1998,820,8.1,120
+46,47,48,NULL,"No Country for Old Men","A neo-Western thriller based on Cormac McCarthy's novel, revolving around a hunter who stumbles upon a drug deal gone wrong.",2007,830,8.1,120
+47,48,49,NULL,"The Martian","A science fiction film where an astronaut is stranded on Mars and must find a way to survive until rescue.",2015,820,8,120
+48,49,50,51,"Toy Story","An animated adventure following the secret lives of toys and the friendship between Woody and Buzz Lightyear.",1995,810,8.3,120
+49,50,NULL,52,"Spirited Away","An animated fantasy film about a young girl who becomes trapped in a mysterious spirit world and must navigate its wonders and dangers to rescue her parents.",2001,840,8.6,120
+50,51,NULL,53,"The Great Gatsby","A romantic drama set in the Roaring Twenties, following the enigmatic millionaire Jay Gatsby and his obsession with the beautiful Daisy Buchanan.",2013,800,7.2,120
