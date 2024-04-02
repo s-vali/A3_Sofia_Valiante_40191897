@@ -43,7 +43,7 @@ movie_id,TMDB_id,IMDB_id,watchmode_id,title,description,release_year,nb_of_revie
 42,43,44,45,Birdman,"A black comedy-drama following a washed-up actor's attempt to revive his career by staging a Broadway play.",2014,820,7.7,120
 43,44,45,46,Spotlight,"A gripping investigative drama based on the true story of the Boston Globe's exposé on systemic child abuse within the Catholic Church.",2015,830,8.1,120
 44,45,NULL,47,Whiplash,"A tense psychological drama exploring the relationship between an ambitious jazz drummer and his abusive instructor.",2014,840,8.5,120
-45,46,47,48,"The Big Lebowski","A cult classic comedy following the misadventures of "The Dude" as he gets caught up in a case of mistaken identity.",1998,820,8.1,120
+45,46,47,48,"The Big Lebowski","A cult classic comedy following the misadventures of The Dude as he gets caught up in a case of mistaken identity.",1998,820,8.1,120
 46,47,48,NULL,"No Country for Old Men","A neo-Western thriller based on Cormac McCarthy's novel, revolving around a hunter who stumbles upon a drug deal gone wrong.",2007,830,8.1,120
 47,48,49,NULL,"The Martian","A science fiction film where an astronaut is stranded on Mars and must find a way to survive until rescue.",2015,820,8,120
 48,49,50,51,"Toy Story","An animated adventure following the secret lives of toys and the friendship between Woody and Buzz Lightyear.",1995,810,8.3,120
