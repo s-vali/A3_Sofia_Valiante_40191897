@@ -5,3 +5,4 @@ create (c:Country {movieId:50, countryId:51, countryName:"United States", shortc
 match (c:Country) match (m:Movie) where c.countryId=51 and m.movieId=50 merge (c)-[h:HOSTS]->(m) return *;
 match (c:Country)-[h:HOSTS]->(m:Movie) where c.countryName = 'Canada' and c.countryName = 'United States' return c, h, m;
 match (k:Keyword)-[d:DESCRIBES]->(m:Movie) return m.title, m.description, m.releaseYear, m.watchmodeId, count(*) as count order by(count) desc limit 2;
+match (m:Movie) where m.language="English" return m.title, m.language, m.rating order by(m.rating) desc limit 5;
