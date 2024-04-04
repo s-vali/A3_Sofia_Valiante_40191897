@@ -6,3 +6,4 @@ match (c:Country) match (m:Movie) where c.countryId=51 and m.movieId=50 merge (c
 match (c:Country)-[h:HOSTS]->(m:Movie) where c.countryName = 'Canada' and c.countryName = 'United States' return c, h, m;
 match (k:Keyword)-[d:DESCRIBES]->(m:Movie) return m.title, m.description, m.releaseYear, m.watchmodeId, count(*) as count order by(count) desc limit 2;
 match (m:Movie) where m.language="English" return m order by(m.rating) desc limit 5;
+match (m:Movie) where m.description="Batman faces off against the Joker in this intense crime thriller." return m;
